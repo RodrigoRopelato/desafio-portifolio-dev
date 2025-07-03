@@ -1,0 +1,36 @@
+.services{
+  background-color: var(--gray-600);
+}
+
+#services{
+  padding: 88px 120px 120px;
+
+  align-items: center;
+  gap: 56px;
+
+  .card-info{
+    border: 1px solid var(--gray-500);
+    border-radius: 12px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 280px;
+    img{
+      width: 48px;
+      height: 48px;
+    }
+
+    .description{
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      p{
+        font: var(--text-sm);
+      }
+    }
+  }
+}

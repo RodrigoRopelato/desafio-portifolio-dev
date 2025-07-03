@@ -2,6 +2,9 @@
   display: flex;
 }
 
+.gap-8{
+  gap: 8px;
+}
 .gap-16{
   gap: 16px;
 }
@@ -12,4 +15,16 @@
 
 .flex-column{
   flex-direction: column;
+}
+
+.grid{
+  display: grid;
+}
+
+.gap-24{
+  gap: 24px;
+}
+
+.grid-col-3{
+  grid-template-columns: 1fr 1fr 1fr;
 }

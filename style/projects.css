@@ -1,0 +1,42 @@
+#projects{
+  padding: 72px 120px 144px;
+  gap: 56px;
+  align-items: center;
+    
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  padding: 12px;
+  background-color: var(--gray-400);
+  border-radius: 12px;
+
+  width: 330px;
+  height: 280px;
+
+  img{
+    width: 306px;
+    height: 156px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .description{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    padding: 4px;
+
+    p{
+      font: var(--text-sm);
+    }
+  }
+
+  &:hover{
+    border: 1.5px solid var(--gray-300);
+  }
+}
