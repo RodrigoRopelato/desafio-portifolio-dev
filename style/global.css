@@ -32,6 +32,10 @@
   /* --h1: 800 24px/135% var(--font-family); */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   scroll-behavior: smooth;
 
