@@ -3,10 +3,10 @@
 }
 
 .gap-8{
-  gap: 8px;
+  gap: .5rem;
 }
 .gap-16{
-  gap: 16px;
+  gap: 1rem;
 }
 
 .flex-wrap {
@@ -22,9 +22,15 @@
 }
 
 .gap-24{
-  gap: 24px;
+  gap: 1rem;
 }
 
-.grid-col-3{
-  grid-template-columns: 1fr 1fr 1fr;
+@media (width >=80em){ 
+  .grid-col-3{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .gap-24{
+  gap: 1.5rem;
+}
 }

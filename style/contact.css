@@ -4,40 +4,56 @@
   background-repeat: no-repeat;
 }
 
-.contact{
-  padding: 128px 120px 200px;
+.contact {
+  padding-inline: 1rem;
+  padding-block: 2rem;
   align-items: center;
-  gap: 48px;
+  text-align: center;
+  gap: 3rem;
 
-  .link{
+  & .link {
     display: flex;
-    gap: 12px;
+    gap: 0.75rem;
     align-items: center;
 
-    width: 400px;
+    width: 20rem;
     background-color: var(--gray-400);
-    border-radius: 8px;
+    border-radius: .5rem;
 
-    padding: 20px;
-    
+    padding: 1.25rem;
+
     margin-inline: auto;
 
-    img:nth-child(1){
-      width: 28px;
-      height: 28px;
+    & img:nth-child(1) {
+      width: 1.75rem;
+      height: 1.75rem;
     }
 
-      img:nth-child(3){
-      width: 20px;
-      height: 20px;
+    & img:nth-child(3) {
+      width: 1.25rem;
+      height: 1.25rem;
     }
 
-    span{
+    & span {
       margin-right: auto;
     }
 
-    &:hover{
+    &:hover {
       border: 1.5px solid var(--blue);
     }
+  }
+}
+
+@media (width >=80em) {
+  .contact {
+    padding: 8rem 7.5rem 12.5rem;
+    align-items: center;
+    gap: 3rem;
+
+    & .link {
+      gap: 0.75rem;
+      width: 25rem;
+    }
+
   }
 }
