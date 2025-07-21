@@ -32,6 +32,13 @@
 }
 
 html {
+<<<<<<< HEAD
+=======
+  scroll-behavior: smooth;
+}
+
+body {
+>>>>>>> db122da2299b32701c40755d98ba510105da3a5f
   scroll-behavior: smooth;
 }
 
