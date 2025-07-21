@@ -12,6 +12,11 @@
   padding-inline: 1rem;
   padding-top: 2rem;
 
+  & #tags {
+    justify-content: space-around;
+    gap: .5rem;
+  }
+
   & h4 {
     margin-bottom: .5rem;
 
@@ -72,20 +77,20 @@
       margin-bottom: 1.25rem;
     }
 
-     & p {
-    font: var(--text-sm);
+    & p {
+      font: var(--text-sm);
 
-    margin-bottom: 5rem;
-    max-width: 42.5rem;
-  }
-  
-  & .arrow-down {
-    margin-top: 5.875rem;
-
-    & i {
-      width: 2rem;
-      height: 2rem;
+      margin-bottom: 5rem;
+      max-width: 42.5rem;
     }
-  }
+
+    & .arrow-down {
+      margin-top: 5.875rem;
+
+      & i {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
   }
 }
